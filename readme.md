@@ -13,6 +13,7 @@ pic project
 format readme correctly
 404 page 
 link to fb inst x 
+add icon/logo
 
 
 project designed to:
