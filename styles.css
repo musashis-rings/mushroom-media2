@@ -159,3 +159,11 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #b71c1c;
 }
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    color: #fff;
+
+}
