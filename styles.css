@@ -30,3 +30,17 @@ header {
     z-index: 1000; /* Ensures header is on top of other content */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for header */
 }
+/* Hero section styles */
+.hero {
+    background-image: url(assets/mushroom-3051519_1280.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px; /* Ensure content is below fixed header */
+    position: relative;
+    overflow: hidden;
+}
