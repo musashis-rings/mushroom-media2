@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Page title -->
     <title>Contact Mushroom Media</title>
+    <!-- Linking external stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ul> <!-- Unordered list containing pages -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Mushroom Media</h2>
+            <p>If you're interested in joining our team, fill out the form below:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+    </section>
 <body>
-    
+     <!-- basic footer ***add buttons here-->
+     <footer>
+        <p>&copy; 2024 Mushroom Media</p>
+
+    </footer>
 </body>
 </html>
